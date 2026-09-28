@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/web-chess-game',
   eslint: {
     ignoreDuringBuilds: true,
   },
